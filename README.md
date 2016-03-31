@@ -1,8 +1,9 @@
-QICI Desktop
+#QICI Desktop
 A desktop client for QICI
 
-*How to use*
-#Clone the Repository
+#How to use
+======
+`#Clone the Repository
 $ git clone https://github.com/zajako/qici_desktop
 
 # Go into the repository
@@ -24,3 +25,4 @@ $ sudo npm i electron-packer -g
 
 # Pack the files into executable files
 $ electron-packager . --all
+`
