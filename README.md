@@ -2,7 +2,6 @@
 A desktop client for QICI
 
 ##How to use
-======
 ```bash
 #Clone the Repository
 $ git clone https://github.com/zajako/qici_desktop
