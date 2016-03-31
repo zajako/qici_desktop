@@ -1,0 +1,31 @@
+{
+  "name": "QICI_Desktop",
+  "version": "1.0.0",
+  "description": "A desktop standalone version of QICI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiciengine/qiciengine"
+  },
+  "keywords": [
+    "QICI",
+    "game",
+    "engine",
+    "gamedev"
+  ],
+  "author": "QICI",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/qiciengine/qiciengine/issues"
+  },
+  "homepage": "http://www.qiciengine.com/",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "bin": {
+    "qici": "./bin"
+  }
+}
