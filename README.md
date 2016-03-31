@@ -26,3 +26,6 @@ $ sudo npm i electron-packer -g
 #Pack the files into executable files
 $ electron-packager . --all
 ```
+
+**Or download a pre-built release from here:**
+https://github.com/zajako/qici_desktop/tree/master/Releases
