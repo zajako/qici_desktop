@@ -4,6 +4,12 @@ const electron = require('electron');
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 const qici = require('qici/editorservice/Start.js');
+var defaultMenu = require('electron-default-menu');
+var Menu = require('menu');
+var dialog = require('dialog');
+
+
+
 
 let mainWindow;
 function createWindow ()
@@ -17,7 +23,30 @@ function createWindow ()
   });
 }
 
-app.on('ready', createWindow);
+app.on('ready', function() {
+  
+  // Get template for default menu 
+  var menu = defaultMenu()
+ 
+  // Add custom menu 
+  menu.splice(4, 0, {
+    label: 'Custom',
+    submenu: [
+      {
+        label: 'Do something',
+        click: function(item, focusedWindow) {
+          dialog.showMessageBox({message: 'Do something', buttons: ['OK'] })
+        }
+      }
+    ]
+  })
+ 
+  // Set top-level application menu, using modified template 
+  Menu.setApplicationMenu(Menu.buildFromTemplate(menu));
+
+  createWindow();
+});
+
 app.on('window-all-closed', function () {
   // On OS X it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
@@ -30,7 +59,7 @@ app.on('window-all-closed', function () {
 app.on('activate', function () {
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
-  if (mainWindow === null) {
+  // if (mainWindow === null) {
     createWindow();
-  }
+  // }
 });
