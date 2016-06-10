@@ -1,5 +1,5 @@
 #QICI Desktop
-A desktop client for QICI
+A desktop client for QICI [http://www.qiciengine.com](http://www.qiciengine.com)
 
 ##How to use
 ```bash
