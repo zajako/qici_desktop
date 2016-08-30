@@ -2,6 +2,10 @@
 A desktop client for QICI [http://www.qiciengine.com](http://www.qiciengine.com)
 
 
+**QICI v1.1.6:**  
+OS X: 		[http://files.zajako.com/hJ6f](http://files.zajako.com/hJ6f)  
+Win32/64:	[http://files.zajako.com/hJ6y](http://files.zajako.com/hJ6y)
+
 **QICI v1.1.3:**  
 OS X: 		[http://files.zajako.com/gPMe](http://files.zajako.com/gPMe)  
 Win32/64:	[http://files.zajako.com/gQGy](http://files.zajako.com/gQGy)
