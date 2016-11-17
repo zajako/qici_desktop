@@ -7,7 +7,7 @@ A desktop client for QICI [http://www.qiciengine.com](http://www.qiciengine.com)
 $ git clone https://github.com/zajako/qici_desktop
 
 #Go into the repository
-$ cd qici_desktop
+$ cd qici_desktop/src
 
 #Create the direcories for qici
 $ mkdir node_modules

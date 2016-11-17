@@ -2,9 +2,9 @@
 A desktop client for QICI [http://www.qiciengine.com](http://www.qiciengine.com)
 
 
-**QICI v1.1.6:**  
-OS X: 		[http://files.zajako.com/hJ6f](http://files.zajako.com/hJ6f)  
-Win32/64:	[http://files.zajako.com/hJ6y](http://files.zajako.com/hJ6y)
+**QICI v1.1.6 With Un-Named Update:**  
+OS X: 		[http://www.nevernull.com/qici_desktop/QICI_Desktop-mac-1.1.6.zip](http://www.nevernull.com/qici_desktop/QICI_Desktop-mac-1.1.6.zip)  
+Win32/64:	[http://www.nevernull.com/qici_desktop/QICI_Desktop-win-1.1.6.zip](http://www.nevernull.com/qici_desktop/QICI_Desktop-win-1.1.6.zip)
 
 **QICI v1.1.3:**  
 OS X: 		[http://files.zajako.com/gPMe](http://files.zajako.com/gPMe)  
